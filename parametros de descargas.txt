@@ -1,0 +1,84 @@
+-h, --help            show this help message and exit
+  -t TITLE, --title TITLE
+                        title id
+  -wids [WATCH_IDS [WATCH_IDS ...]], --watch-ids [WATCH_IDS [WATCH_IDS ...]]
+                        episode / watch id, extract it straight from an
+                        episode/extra url
+  --trailers            download trailers for the specified title
+  -o [OUTPUTFILE], --outputfile [OUTPUTFILE]
+                        output filename (no extension)
+  -q {sd,sd-baseline,sd-main,720p,1080p,2160p,best}, --quality {sd,sd-baseline,sd-main,720p,1080p,2160p,best}
+                        video resolution
+  -a AUDIOLANG, --audiolang AUDIOLANG
+                        audio language
+  -c CODEC, --codec CODEC
+                        video type to download
+  -k, --skip-cleanup    skip cleanup step
+  -dm, --dont-mux       move unmuxed tracks instead of muxing
+  -i, --info            print track information and exit
+  -d, --debug           print debug statements
+  -n {once,every,off}, --notify {once,every,off}
+                        choose notification mode
+  -S, --subs-only       download subtitles and exit
+  -sl SUB_LANG, --sub-lang SUB_LANG
+                        subtitle languages to download
+  -st {dfxp,vtt,none}, --sub-type {dfxp,vtt,none}
+                        subtitle format to download
+  -sc {srt,ass,none}, --sub-convert {srt,ass,none}
+                        subtitle format to convert to
+  -A, --audio-only      download audio and exit
+  -sA, --skip-audio     do NOT download any audio tracks
+  -ad, --audio-description
+                        download audio description tracks instead of regular
+                        ones
+  -at, --all-tracks     download and merge ALL tracks
+  -s SEASON, --season SEASON
+                        lookup and download season from title id
+  -E EPISODE, --episode EPISODE
+                        rip only specified episode(s) in season mode
+  -e EPISODE_START, --episode_start EPISODE_START
+                        Recursively rip season number that provided viewable
+                        ID belongs to, starting at the episode provided
+  --skip SKIP           skip episodes in season mode
+  --web-login
+  --no-web-login        use web login method instead of Android API login
+                        method
+  --license             do license request and print decryption keys only
+  --licenses-as-json, -laj
+                        save the licenses as json instead
+  --licenses-json-name LICENSES_JSON_NAME, -ljn LICENSES_JSON_NAME
+                        save the licenses-json to a specific name (will be
+                        "keys{name}.json")
+  --licenses-json-overwrite, -ljo
+                        always overwrite keys.json if it exists (dangerous)
+  --create-dl-info-json, -dij
+                        Create a JSON file with all metadata + track URLs
+                        (IIRC expire after 24 hours) + working VPN address (if
+                        any found in proxydata.json)
+  --dl-info-json-name, -ijn
+                        Name of the json stored when using --create-dl-info-
+                        json/-dij
+  -m, --store-meta      store the metadata of the movies (json)
+  --proxy PROXY         proxy URL to use for both fetching metadata and
+                        downloading
+  --proxy-meta PROXY_META
+                        proxy URL to use for fetching metadata
+  --proxy-dl PROXY_DL   proxy URL to use for downloading
+
+  -r us		donde us es la region para estados unidos
+
+
+
+[-h] [--url URL_SEASON] [--tqdm] [--nv] [--na] [--ns]
+                [--all-season] [-e EPISODESTART] [-s SEASON] [--tag TAG]
+                [-q CUSTOMQUALITY] [-o OUTPUT] [--keep] [--no-mux]
+                [--only-2ch-audio] [--alang [AUDIOLANG [AUDIOLANG ...]]]
+                [--slang [SUBLANG [SUBLANG ...]]]
+                [--flang [FORCEDLANG [FORCEDLANG ...]]] [--hevc] [--uhd]
+                [--only-keys] [--debug] [--aformat-51ch AFORMAT_51CH] [--nc]
+                [-c {widevine,playready}] [--atmos] [--ad] [--hdr]
+                [-r {la,us}] [--m3u8] [--file TXTPATH] [--tlang TITLELANG]
+                [--scenario SCENARIO] [--proxy PROXY]
+                [content]
+
+

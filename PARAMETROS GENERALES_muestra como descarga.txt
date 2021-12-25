@@ -1,0 +1,6 @@
+python bad37.py --url httpsplay.hbomax.comfeatureurnhbofeatureGX9KHPw1OIMPCJgEAAAAD --alang es-la en --slang es-la en -q 1080p
+pause
+
+para blim descargar la mejor calidad es el comando asi 
+
+python bad37.py --url https://www.blim.com/asset/7607 -s 10 -c playready -e 1
